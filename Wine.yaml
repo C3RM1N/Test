@@ -23,3 +23,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: id-ikd.vmess.sbs
+    server: id-ikd.vmess.sbs
+    port: 443
+    type: vmess
+    uuid: 71796690-962b-11ed-b433-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: kh.google.com
+    udp: true
