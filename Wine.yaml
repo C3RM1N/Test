@@ -1,0 +1,9 @@
+proxies:
+  - name: trojan3.udpgw.com
+    server: trojan3.udpgw.com
+    port: 443
+    type: trojan
+    password: d6a75330-961f-11ed-a8a6-1239d0255272
+    skip-cert-verify: true
+    sni: kh.google.com
+    udp: true
