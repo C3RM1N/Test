@@ -7,3 +7,19 @@ proxies:
     skip-cert-verify: true
     sni: kh.google.com
     udp: true
+  - name: v2ray3.udpgw.com
+    server: v2ray3.udpgw.com
+    port: 443
+    type: vmess
+    uuid: 917aa038-3db8-40f7-b204-94071e94d9c8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: kh.google.com
+    udp: true
