@@ -55,3 +55,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: 443 Vmess Indonesia Herza 2023-01-26
+    server: id-1.0rd.net
+    port: 443
+    type: vmess
+    uuid: 9b3cc9f0-975d-11ed-b534-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: kh.google.com
+    udp: true
