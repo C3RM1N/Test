@@ -71,3 +71,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: dynamic-sg3b.obfs.xyz
+    server: dynamic-sg3b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 7aafa48a-5692-45d5-935f-cd9d08f5fdfe
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: kh.google.com
+    udp: true
