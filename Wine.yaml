@@ -87,3 +87,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: 443 Vmess Singapore OVH-2 2023-01-27
+    server: sg-5.0rd.net
+    port: 443
+    type: vmess
+    uuid: 3583b170-9869-11ed-b937-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: kh.google.com
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: kh.google.com
+    udp: true
