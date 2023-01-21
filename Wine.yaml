@@ -119,3 +119,19 @@ proxies:
       headers:
         Host: kh.google.com
     udp: true
+  - name: TJSSL-IKD
+    type: trojan
+    server: id-ikd.tjvpn.org
+    port: 443
+    password: 956e31d0-95ab-11ed-b333-225401db9d57
+    udp: true
+    sni: "config.teams.microsoft.com"
+    skip-cert-verify: true
+  - name: trojan3.udpgw.com
+    server: trojan3.udpgw.com
+    port: 443
+    type: trojan
+    password: 732c0f60-99bf-11ed-9dd9-1239d0255272
+    skip-cert-verify: true
+    sni: kh.google.com
+    udp: true
