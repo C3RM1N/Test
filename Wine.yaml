@@ -127,7 +127,7 @@ proxies:
     udp: true
     sni: "config.teams.microsoft.com"
     skip-cert-verify: true
-  - name: trojan3.udpgw.com
+  - name: trojan3.udpgw.comvrfr
     server: trojan3.udpgw.com
     port: 443
     type: trojan
